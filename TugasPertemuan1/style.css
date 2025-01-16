@@ -1,0 +1,143 @@
+*, body {
+    margin : 0px;
+    padding : 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navbar Menu */
+
+nav {
+    height: auto;
+    display : flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #021526;
+    backdrop-filter: blur(10px); 
+    backdrop-filter: blur(10px); 
+    z-index: 1000;
+    padding : 20px;
+}
+
+.left {
+    color: whitesmoke;
+}
+
+.right > ul{
+    display : flex;
+    gap: 50px;
+    padding-left: 30px;
+    font-weight: 600;
+}
+
+.right > ul > a{
+    text-decoration: none;
+    list-style-type: none;
+    color: whitesmoke;
+    transition: .4s all;
+}
+
+.right > ul > a:hover{
+    color: red;
+}    
+
+/* end Navbar Menu  */
+
+/* Main Manu */
+
+main {
+    background: #021526;
+}
+
+main > .Judul {
+    background: #0B192C;
+    box-shadow: 1px 5px 2px 1px rgba(0, 0, 0, 1);
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    padding: 12px;
+    color: white;
+}
+
+
+.articles > .prg > h2 {
+    font-size: 35px;
+    margin-bottom: 50px;
+    color: skyblue;
+}
+
+.articles > .prg > h2 > span:before {
+    content: "";
+    animation: gerak infinite 10s ease;
+    transform: translateY(-50%);
+    color: lightblue;
+}
+
+@keyframes gerak {
+    0% {
+        content: "Saya Reihan Aditya Putra";
+    }
+    50% {
+        content: "Terima Kasih Sudah Singgah";
+    }
+    100% {
+        content: "Selamat Datang";
+    }
+}
+
+.articles > .prg > p >  a {
+    text-decoration: none;
+    color: white;
+}
+
+.prg {
+    font-size: 20px;
+    color: white;
+}
+
+.Button {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.Button > button {
+    cursor: pointer;
+    font-size: 25px;
+    padding: 12px 20px;
+    border-radius: 20px;
+    transition: .4s all;
+}
+
+.Button > button:hover {
+    background: red;
+    color: white;
+}
+
+main > .articles {
+    padding: 25px;
+    display: flex;
+    justify-content: space-around ;
+    align-items: center ;
+}
+
+.img > img{
+    display: block;
+    position: relative;
+    width: 400px;
+    height: 500px;
+    border-radius: 60px;
+    box-shadow: 10px 4px 3px 1px rgba(0, 0, 0, 0.1);
+}
+
+main > .Project {
+    background: whitesmoke;
+    box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    padding: 12px;
+    margin-top: 100px;
+}
+/* end main menu */
