@@ -164,25 +164,30 @@ main > .Project {
         grid-template-areas: 
         'judul icon'
         'menuicon menuicon';
-        padding: 15px;
+        padding:40px ;
     }
 
-    
-
-    nav >  .right > ul {
+    nav > .right {
         display: grid;
         grid-area: menuicon;
+        justify-content: center;
+    }
+
+    nav >  .right > ul {
         flex-direction: column;
+        align-items: center;
         justify-items: center;
         padding-left: 0px;
-        padding-bottom: 30px;
+        padding-bottom: 35px;
     }
 
     nav > .menu-icon {
         grid-area: icon;
+        position: relative;
+        bottom: 40px;
         display: grid;
         justify-content: end;
-        padding-right: 27px ;
+        padding-right: 50px ;
     }
 }
 
@@ -194,6 +199,7 @@ main > .Project {
 
     nav > .left {
       position: relative;
+      bottom: 40px;
       left: 0px;
     }
 
