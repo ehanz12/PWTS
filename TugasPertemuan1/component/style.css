@@ -164,7 +164,8 @@ main > .Project {
         grid-template-areas: 
         'judul icon'
         'menuicon menuicon';
-        padding:40px ;
+        padding:0px ;
+        padding-left: 0px;
     }
 
     nav > .right {
@@ -187,7 +188,7 @@ main > .Project {
         bottom: 40px;
         display: grid;
         justify-content: end;
-        padding-right: 50px ;
+        padding-right: 55px ;
     }
 }
 
