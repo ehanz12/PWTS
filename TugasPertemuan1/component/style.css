@@ -160,6 +160,7 @@ main > .Project {
     nav > .right > .hidden {
         display: none;
     }
+    
 
     nav {
         display: grid;
