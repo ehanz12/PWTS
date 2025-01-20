@@ -53,6 +53,7 @@ nav {
     nav > .menu-icon {
         font-size: 35px;
     }
+
 }
 
 /* end Navbar Menu  */
@@ -205,6 +206,9 @@ main > .Project {
         justify-content: end;
         padding-right:  30px ;
     }
+
+
+    
 }
 
 
@@ -220,9 +224,14 @@ main > .Project {
     }
 
     main > .Judul {
-        font-size: 35px;
+        font-size: 27px;
+        padding: 10px;
     }
-
+    
+    main > .Project {
+        font-size: 27px;
+        padding: 10px;
+    }
     main > .articles {
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(1, 1fr);
