@@ -157,14 +157,19 @@ main > .Project {
 }
 
 @media only screen and (max-width :775px){
+    nav > .right > .hidden {
+        display: none;
+    }
+
     nav {
         display: grid;
         grid-template-columns: repeat(2, 200px);
-        grid-template-rows: repeat(2, 200px);
+        grid-template-rows: repeat(1, 150px);
         grid-template-areas: 
         'judul icon'
         'menuicon menuicon';
         padding:0px ;
+        align-content: center;
         padding-left: 0px;
     }
 
@@ -188,7 +193,7 @@ main > .Project {
         bottom: 40px;
         display: grid;
         justify-content: end;
-        padding-right: 55px ;
+        padding-right:  30px ;
     }
 }
 
