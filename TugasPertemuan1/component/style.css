@@ -9,7 +9,6 @@
 nav {
     height: auto;
     display : flex;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     background-color: #021526;
@@ -38,7 +37,14 @@ nav {
 
 .right > ul > a:hover{
     color: red;
-}    
+} 
+
+.menu-icon {
+    display: none;
+    color: white;
+    font-size: 50px;
+    font-weight: 800;
+}
 
 /* end Navbar Menu  */
 
@@ -150,7 +156,38 @@ main > .Project {
     color: black;
 }
 
-@media screen and (max-width : 780px) {
+@media only screen and (max-width :775px){
+    nav {
+        display: grid;
+        grid-template-columns: repeat(2, 200px);
+        grid-template-rows: repeat(2, 200px);
+        grid-template-areas: 
+        'judul icon'
+        'menuicon menuicon';
+        padding: 15px;
+    }
+
+    
+
+    nav >  .right > ul {
+        display: grid;
+        grid-area: menuicon;
+        flex-direction: column;
+        justify-items: center;
+        padding-left: 0px;
+        padding-bottom: 30px;
+    }
+
+    nav > .menu-icon {
+        grid-area: icon;
+        display: grid;
+        justify-content: end;
+        padding-right: 27px ;
+    }
+}
+
+
+@media screen and (max-width : 778px) {
     nav{
         padding: 15px;
     }
@@ -160,13 +197,6 @@ main > .Project {
       left: 0px;
     }
 
-    
-    .right > ul {
-        font-size: 10px;
-        padding-top: 12px;
-        gap: 25px;
-        padding-left: 0px;
-    }
     main > .Judul {
         font-size: 35px;
     }
