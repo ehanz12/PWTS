@@ -46,6 +46,15 @@ nav {
     font-weight: 800;
 }
 
+@media screen and (max-width: 410px) {
+    nav > .left {
+        font-size: 13px;
+    }
+    nav > .menu-icon {
+        font-size: 35px;
+    }
+}
+
 /* end Navbar Menu  */
 
 /* Main Manu */
@@ -248,6 +257,8 @@ main > .Project {
         margin-top: 15px;
     }
 }
+
+
 
 
 
