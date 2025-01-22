@@ -1,0 +1,54 @@
+/* Footer */
+.footer {
+    margin-top : 30px;
+    background: #333;
+    color: #fff;
+    padding: 20px 10px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+
+    box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Kontainer footer */
+.footer-container {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Sosial media */
+.social-media {
+    display: flex;
+    gap: 15px;
+}
+
+.social-link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.social-link.instagram {
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+}
+
+.social-link.github {
+    background: #24292e;
+}
+
+.social-link.email {
+    background:rgb(222, 227, 231);
+    color: black
+}
+.social-link:hover {
+    opacity: 0.8;
+    transform: scale(1.05);
+}

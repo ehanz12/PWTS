@@ -43,19 +43,19 @@
 }
 
 .img1 {
-    background-image: url(../asets/CRUD.png);
+    background-image: url(/TugasPertemuan1/asets/Prima.png);
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
 }
 
 .img2 {
-    background-image: url(../asets/Game.png);
+    background-image: url(/TugasPertemuan1/asets/Game.png);
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
 }
 
 .img3 {
-    background-image: url(../asets/Form-Login.png);
+    background-image: url(/TugasPertemuan1/asets/Form-Login.png);
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
 }

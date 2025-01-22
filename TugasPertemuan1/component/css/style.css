@@ -2,6 +2,7 @@
     margin : 0px;
     padding : 0px;
     font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
 }
 
 /* Navbar Menu */
@@ -165,6 +166,10 @@ main > .Project {
     color: black;
 }
 
+.input {
+    text-decoration : none;
+}
+
 @media only screen and (max-width :775px){
     nav > .right > .hidden {
         display: none;
@@ -179,7 +184,7 @@ main > .Project {
         grid-template-areas: 
         "Judul icon"
         "menuicon menuicon";
-        padding:10px ;
+        padding:px ;
         align-content: center;
         padding-left: 0px;
     }

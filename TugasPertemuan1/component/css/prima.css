@@ -1,0 +1,87 @@
+/* Gaya umum untuk body */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Gaya untuk elemen utama */
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #ffdd00;
+}
+
+/* Form container */
+form {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px 30px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+    max-width: 400px;
+    width: 100%;
+}
+
+/* Gaya untuk label dan input */
+form input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    font-size: 1rem;
+    outline: none;
+    transition: 0.3s;
+}
+
+/* Hover pada input */
+form input[type="number"]:focus {
+    border-color: #ffdd00;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+/* Tombol submit */
+form input[type="submit"] {
+    background: #ffdd00;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+form input[type="button"] {
+    background: #ffdd00;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: 0.3s;
+}
+/* Hover pada tombol */
+form input[type="submit"]:hover {
+    background: #e0c700;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+form input[type="button"]:hover {
+    background: #e0c700;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
