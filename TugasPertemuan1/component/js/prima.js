@@ -27,6 +27,8 @@ form.addEventListener("submit", function (event) {
     // Elemen untuk menampilkan hasil
     const resultContainer = document.createElement("div");
     resultContainer.id = "result-container";
+    resultContainer.style.display = "flex";
+    resultContainer.style.flexWrap = "wrap";
     resultContainer.style.marginTop = "20px";
     resultContainer.style.padding = "15px";
     resultContainer.style.borderRadius = "10px";
