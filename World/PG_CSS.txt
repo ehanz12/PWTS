@@ -1,0 +1,53 @@
+Nama    : Reihan Aditya Putra
+Kelas   : X RPL 2
+
+1. b. Cascading Style Sheets
+2. b. Memberi gaya pada halaman web
+3. b. <link rel="stylesheet" href="style.css">
+4. c. Dalam <head>
+5. c. p
+6. c. body {background-color: blue;}
+7. c. Mengatur warna teks
+8. c. /* Ini komentar */
+9. c. font-size
+10. b. font-weight: bold;
+11. c. Elemen dengan ID main
+12. b. Class judul
+13. c. *
+14. b. Semua p dalam div
+15. c. Tag > Class > ID > Inline
+16. b. Semua elemen dengan atribut type bernilai text
+17. c. li:first-child
+18. d. .box.highlight
+19. c. Link saat pointer diarahkan
+20. c. Menimpa aturan lain
+21. c. Menjadikan elemen flex container
+22. a. display: grid;
+23. c. Memusatkan item secara horizontal
+24. c. Menyusun item secara vertikal
+25. b. Mengubah gaya berdasarkan ukuran layar
+26. a. @media screen and (max-width: 768px)
+27. c. display: none;
+28. c. Memposisikan elemen terhadap dokumen
+29. c. Elemen muncul di atas elemen lain
+30. a. transition
+31. b. animation-iteration-count: infinite;
+32. c. @keyframes
+33. b. Menyembunyikan konten keluar elemen
+34. c. border-radius
+35. b. Menambah bayangan di luar elemen
+36. b. Viewport height
+37. b. Membatasi lebar maksimum elemen
+38. c. Tingkat transparansi
+39. b. Ikon tangan saat hover
+40. b. Menyesuaikan gambar agar proporsional
+41. c. --warna: red;
+42. a. color: var(--utama);
+43. a. margin
+44. c. Tinggi baris teks
+45. b. Membuat huruf kapital semua
+46. c. text-align: center;
+47. a. border-color
+48. a. Menyembunyikan elemen, tapi tetap menyisakan ruang
+49. d. border-width
+50. c. static

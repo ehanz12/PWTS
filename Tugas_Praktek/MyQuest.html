@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Hapiz Pratama Aditya</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: skyblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        
+        .profile-card {
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            width: 350px;
+            text-align: center;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+        
+        .motivation {
+            color: #7f8c8d;
+            line-height: 1.6;
+            margin-bottom: 25px;
+            font-size: 16px;
+        }
+        
+        .encourage-btn {
+            background-color: #3498db;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 30px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: bold;
+        }
+        
+        .encourage-btn:hover {
+            background-color: red;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(41, 128, 185, 0.4);
+        }
+        
+        .encourage-btn:active {
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-card">
+        <h1>Hapiz Pratama Aditya</h1>
+        <p class="motivation">Motivasi saya adalah untuk terus berkembang, menjadi pribadi yang bermanfaat, dan tidak pernah berhenti belajar demi masa depan yang lebih baik.</p>
+        <button class="encourage-btn">Klik untuk Semangati</button>
+    </div>
+
+    <script>
+        document.querySelector('.encourage-btn').addEventListener('click', function() {
+            alert('Semangat terus, Hapiz! 💪 Kamu pasti bisa mencapai semua mimpimu!');
+        });
+    </script>
+</body>
+</html>
